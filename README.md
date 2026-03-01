@@ -64,20 +64,20 @@
     docker-compose up
 
 ## Структура проекта
-    rag-assistant/
-├── app/
-│   └── app.py                 # Веб-приложение на Streamlit
-├── notebooks/                  # Jupyter ноутбуки с исследованиями
-│   ├── 01_index_document_v2.ipynb    # Создание векторной базы
-│   └── 03_conversational_rag.ipynb   # RAG с памятью
-├── chroma_db/                   # Векторная база данных
-├── requirements.txt             # Зависимости Python
-├── requirements.in              # Исходный список зависимостей
-├── Dockerfile                    # Инструкции для сборки образа
-├── docker-compose.yml            # Оркестрация контейнеров
-├── .env.example                  # Пример переменных окружения
-└── README.md                     # Документация проекта
-
+- `rag-assistant/`
+  - `app/`
+    - `app.py`
+  - `notebooks/`
+    - `01_index_document_v2.ipynb`
+    - `03_conversational_rag.ipynb`
+  - `chroma_db/`
+  - `requirements.txt`
+  - `requirements.in`
+  - `Dockerfile`
+  - `docker-compose.yml`
+  - `.env.example`
+  - `README.md`
+  
 ## 🧪 Примеры запросов
 После загрузки документа (например, научной статьи) можно задавать вопросы:
 
