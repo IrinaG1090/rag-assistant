@@ -1,0 +1,10 @@
+langchain
+langchain-community
+langchain-huggingface
+chromadb
+pypdf
+python-dotenv
+sentence-transformers
+streamlit
+transformers
+pillow

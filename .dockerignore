@@ -1,0 +1,26 @@
+# Виртуальное окружение
+venv_rag/
+venv/
+env/
+
+# Git
+.git
+.gitignore
+
+# Данные (не копируем в образ)
+chroma_db/
+chroma_db_custom/
+data/
+*.pdf
+*.pkl
+
+# Jupyter
+notebooks/
+.ipynb_checkpoints/
+
+# Локальные файлы
+.env
+.vscode/
+.history/
+__pycache__/
+*.pyc

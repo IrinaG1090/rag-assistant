@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  rag-assistant:
+    build: .
+    container_name: rag-assistant-app
+    ports:
+      - "8501:8501"
+    environment:
+      - HUGGINGFACEHUB_API_TOKEN=${HUGGINGFACEHUB_API_TOKEN}
+    volumes:
+      # Монтируем папку с векторной базой для сохранения изменений
+      - ./chroma_db:/app/chroma_db
+      # Монтируем .env файл для токенов
+      - ./.env:/app/.env
+    restart: unless-stopped
