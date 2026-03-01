@@ -64,6 +64,7 @@
     docker-compose up
 
 ## Структура проекта
+<<<<<<< HEAD
 - `rag-assistant/`
   - `app/`
     - `app.py`
@@ -78,6 +79,23 @@
   - `.env.example`
   - `README.md`
   
+=======
+\```
+rag-assistant/
+├── app/
+│   └── app.py
+├── notebooks/
+│   ├── 01_index_document_v2.ipynb
+│   └── 03_conversational_rag.ipynb
+├── chroma_db/
+├── requirements.txt
+├── requirements.in
+├── Dockerfile
+├── docker-compose.yml
+├── .env.example
+└── README.md
+\```
+>>>>>>> e64c1bff375b8a3aa5a8fba23d5e0e1b3658f453
 ## 🧪 Примеры запросов
 После загрузки документа (например, научной статьи) можно задавать вопросы:
 
