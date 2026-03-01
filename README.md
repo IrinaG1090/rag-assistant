@@ -64,7 +64,7 @@
     docker-compose up
 
 ## Структура проекта
-    rag-assistant/
+rag-assistant/
 ├── app/
 │   └── app.py                 # Веб-приложение на Streamlit
 ├── notebooks/                  # Jupyter ноутбуки с исследованиями
